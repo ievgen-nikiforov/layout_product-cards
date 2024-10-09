@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card.png",
-        "test": "..\\bitmaps_test\\20241008-135743\\Card_with_data-qa_card.png",
+        "test": "..\\bitmaps_test\\20241009-122705\\Card_with_data-qa_card.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card.png",
         "label": "Card with data-qa_card",
@@ -15,23 +15,22 @@ report({
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": 1
+            "height": 0
           },
-          "rawMisMatchPercentage": 13.457107843137257,
-          "misMatchPercentage": "13.46",
-          "analysisTime": 13
-        },
-        "diffImage": "..\\bitmaps_test\\20241008-135743\\failed_diff_Card_with_data-qa_card.png"
+          "rawMisMatchPercentage": 0.35661764705882354,
+          "misMatchPercentage": "0.36",
+          "analysisTime": 19
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover.png",
-        "test": "..\\bitmaps_test\\20241008-135743\\Link_with_data-qa_hover.png",
+        "test": "..\\bitmaps_test\\20241009-122705\\Link_with_data-qa_hover.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Link_with_data-qa_hover.png",
         "label": "Link with data-qa_hover",
@@ -42,18 +41,17 @@ report({
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": 1
+            "height": 0
           },
-          "rawMisMatchPercentage": 20.903186274509807,
-          "misMatchPercentage": "20.90",
-          "analysisTime": 13
-        },
-        "diffImage": "..\\bitmaps_test\\20241008-135743\\failed_diff_Link_with_data-qa_hover.png"
+          "rawMisMatchPercentage": 0.34191176470588236,
+          "misMatchPercentage": "0.34",
+          "analysisTime": 21
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ]
 });
